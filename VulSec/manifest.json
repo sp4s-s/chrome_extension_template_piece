@@ -1,0 +1,34 @@
+{
+    "manifest_version": 3,
+    "name": "Vul Sec",
+    "version": "1.0.1",
+    "description": " Web App Security Vulnerability Checkpass",
+
+    "permissions": [
+        "storage",
+        "tabs",
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "warning.html"
+    },
+    "background":{
+        "service_worker": "bg.js",
+        "type": "module"
+    },
+    "host_permissions":[
+        "http://*/*",
+        "https://*/*"
+    ],
+    "content_scripts": [
+        {
+            "matches" : [
+                "http://*/*",
+                "https://*/*"
+
+            ],
+            "js": ["content.js"]
+        }
+    ]
+}

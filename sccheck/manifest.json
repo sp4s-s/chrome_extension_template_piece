@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "Vul Sec",
+    "version": "1.0.0",
+
+    "description": "Embedded Script & Vulnerability Security Inspection Tool",
+
+    "icons": {
+        "128": "assets/s128.png"
+    },
+
+   
+
+    "action": {
+        "default_popup": "index.html"
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["grabber.js"]
+    }],
+
+    "permissions": [
+        "scripting",
+        "tabs",
+        "storage",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+
+}
