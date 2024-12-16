@@ -1,4 +1,4 @@
-END USER LICENSE AGREEMENT (EULA)
+END USER LICENSE AGREEMENT 
 
 This End User License Agreement (“Agreement”) is a legal contract between you (“User” or “Licensee”) and Spass (“Licensor”) governing the use of the software (“Software”), associated documentation, and any included materials (“Licensed Materials”). By installing, copying, or otherwise using this Software, you agree to be bound by the terms of this Agreement.
 
